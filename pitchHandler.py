@@ -18,9 +18,11 @@ def pitchshift(files, shiftamount, directory_name, storagefolder):
 
         call([pitch_tier, manipulation], "Replace pitch tier")
         sound_octave_up = call(manipulation, "Get resynthesis (overlap-add)")
+        os.chdir("..") #Move into parent folder 
         if not os.path.exists(directory_name): 
             os.mkdir(directory_name) 
         os.chdir(directory_name)
+        sound.scale_peak(0.99)
         sound_octave_up.save(f"{'shifted'}{file}", "WAV")
 
         ... 
