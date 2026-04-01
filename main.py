@@ -14,14 +14,14 @@ if __name__ == "__main__":
 
     newfolder = "MatchPitches"
 
-    pitchshift(GibFiles['Bella'], 0.8767, newfolder, storagefolder)  
-    #pitchshift(GibFiles['River'], 1.129, newfolder, storagefolder)  ##1.129 gets to 192
-    #pitchshift(GibFiles['Clancy'], 1.071, newfolder, storagefolder)  ##1.071 gets to 90
-    pitchshift(GibFiles['Matt'], 0.9329, newfolder, storagefolder) 
+    pitchshift(GibFiles['Bella'], 0.874079226075685, newfolder, storagefolder)  ##0.874079226075685 to
+    pitchshift(GibFiles['River'], 1.129, newfolder, storagefolder)  ##1.129 gets to 192
+    pitchshift(GibFiles['Clancy'], 1.071, newfolder, storagefolder)  ##1.071 gets to 90
+    pitchshift(GibFiles['Matt'], 0.88899, newfolder, storagefolder) 
 
-    pitchshift(IEEEFiles['Bella'], 0.9142, newfolder, storagefolder)  
-    #pitchshift(IEEEFiles['River'], 1.1228, newfolder, storagefolder)  ## 1.1228 gets to 192
-    #pitchshift(IEEEFiles['Clancy'], 1.046, newfolder, storagefolder)  ##1.046 gets to 90 
-    pitchshift(IEEEFiles['Matt'], 0.9427, newfolder, storagefolder) 
+    pitchshift(IEEEFiles['Bella'], 0.904761904761905, newfolder, storagefolder)  #0.904761904761905, to get to 192
+    pitchshift(IEEEFiles['River'], 1.1228, newfolder, storagefolder)  ## 1.1228 gets to 192
+    pitchshift(IEEEFiles['Clancy'], 1.046, newfolder, storagefolder)  ##1.046 gets to 90 
+    pitchshift(IEEEFiles['Matt'], 0.88999, newfolder, storagefolder) 
 
     print ("Files made")
