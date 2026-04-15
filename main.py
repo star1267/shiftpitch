@@ -9,10 +9,10 @@ if __name__ == "__main__":
 
     #define the folder that the stimuli that has the stim you want to change 
 
-    storagefolder= 'C:/Users/testarr/Documents/pythoncode/PitchAnalysis/FinalWav' 
+    storagefolder= 'C:/Users/testarr/Documents/pythoncode/PitchAnalysis/Bella512' 
     audio_files, GibFiles, IEEEFiles = load_audio_files(storagefolder, names) # function creats a list of wav files in the folder 
 
-    newfolder = "MatchPitches"
+    newfolder = "BellaShifted"
 
     pitchshift(GibFiles['Bella'], 0.874079226075685, newfolder, storagefolder)  ##0.874079226075685 to
     pitchshift(GibFiles['River'], 1.129, newfolder, storagefolder)  ##1.129 gets to 192
